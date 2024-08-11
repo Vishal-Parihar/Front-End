@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Using Grid</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            display: grid;
+            background-color: black;
+            height: 50vh;
+            grid-template-columns: auto;
+        }
+
+        header{
+            background-color: blueviolet;
+            height: 55px;
+          
+         
+            
+            
+        }
+        ul{
+            padding: 20px ;
+            
+
+        }
+        nav{
+            padding:  20px;
+        }
+
+      .container header nav ul li{
+            display: inline;
+            /* padding: 0 40px; */
+            font-size: 40px;
+         
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+</body>
+</html>

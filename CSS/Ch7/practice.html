@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="hi.png" type="image/x-icon">
+    <title>Images</title>
+    
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .loader{
+            height: 3px;
+            background-color:darkblue;
+            border-radius: 80% solid black  ;
+            animation: loader  1s ease-in-out forwards ;
+        }
+ 
+        header{
+            background-color:black;
+            color:white ;
+            height: 50px
+            
+        }
+        main{
+            background-color: teal;
+            height: 100vh;
+        }
+
+        .load{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding: 10px auto;
+    
+        }
+        .yes{
+            font-size: 30px;
+            display: inline;
+            gap: 40px;
+            padding:20px;
+            text-decoration:solid;
+        }
+
+        @keyframes loader {
+            0%{
+                width: 0vw;
+            }
+            50%{
+                width: 70vw;
+            }
+            100%{
+                width: 100vw;
+            }
+            
+        } 
+
+        @keyframes rotate {
+            from{
+                transform: rotate(0);
+                transform: rotate(360deg);
+            }
+            
+        }
+
+        img{
+            border-radius:90%;
+            margin: 30px 40px;
+            animation: rotate 7s ease-in reverse infinite;  
+              }
+
+              .container{
+                height: 200px;
+                width: 500px;
+                background-color: aliceblue;
+                
+            
+                translate: 500px -200px;
+              }
+        
+    </style>
+</head>
+
+
+<body>
+
+    <div class="loader"></div>
+    <header>
+        <div class="load">
+            <ul>
+                <li class="yes">Home</li>
+                <li class="yes">About</li>
+                <li class="yes">Contact</li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <img src="cir.jpg" alt="#" width="150px">
+       
+    </main>
+    
+    
+   
+    
+</body>
+</html>

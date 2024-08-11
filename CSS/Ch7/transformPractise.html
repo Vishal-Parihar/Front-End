@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+
+    <style>
+      .container {
+        height: 400px;
+        width: 400px;
+        background-color: teal;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-style: italic;
+        /* transform: scale(1); */
+        
+        /* transform: skewX(20deg);
+        transform: skewY(10deg); */
+        /* transform: skew(20deg,10deg); */
+
+    /* transform: translate(150px);        moves in x or y direction according to its respective position(in pixels) */
+
+    transform: rotate(20deg);
+    transform-origin: center left;
+      }
+    
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Box</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    background-color: orange;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    text-decoration: underline;
+    }
+.box2{
+    background-color: green;
+    height: 300px;
+    width: 800px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transiton</title>
+
+    <style>
+      .box {
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        margin: 100px auto;
+        border-radius: 20%;
+        transition-duration: 0.5s;
+        /* transition-delay: 0.1ms; */
+        transition-property: background-color, border-radius, transform;
+      }
+
+      .box:hover {
+        background-color: gray;
+        border-radius: 50%;
+        /* transform: rotate(180deg); */
+        transform: scale(1.5);
+      }
+
+      .list {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+      }
+
+      .item {
+        font-size: 2rem;
+        padding: 8px 16px;
+        transition: 0.3s ease-in;
+        text-decoration: underline;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      .item:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        transform: translateY(-10px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+
+    <ul class="list">
+      <li class="item">Home</li>
+      <li class="item">Product</li>
+      <li class="item">Services</li>
+    </ul>
+  </body>
+</html>

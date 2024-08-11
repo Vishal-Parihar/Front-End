@@ -1,0 +1,28 @@
+/* hi i am a comment */
+h1,h2{
+    background-color: yellow;
+    color: balck;
+}
+
+#first{
+    background-color: aqua;    
+}   
+.bg-blue{
+    background-color: blue;
+    color: white;
+}
+
+#second{
+    background-color: yellow;    
+    color: magenta;
+}   
+.bg-blue{
+    background-color: blue;
+    color: white;
+}
+
+.blue{
+    background-color: red;
+    color: blue;
+    border: 2ppx solid black;
+}
